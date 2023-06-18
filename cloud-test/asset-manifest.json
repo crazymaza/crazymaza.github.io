@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c0fd0820.css",
+    "main.js": "/static/js/main.c1e2cca8.js",
+    "static/js/787.1c13c7f6.chunk.js": "/static/js/787.1c13c7f6.chunk.js",
+    "static/media/SBSansInterface-Regular.woff2": "/static/media/SBSansInterface-Regular.b8dc05e02a26de192f04.woff2",
+    "static/media/SBSansInterface-Semibold.woff2": "/static/media/SBSansInterface-Semibold.96014bf8703895b0656b.woff2",
+    "static/media/SBSansDisplaySemiBold.woff2": "/static/media/SBSansDisplaySemiBold.3633b10a37774b3c00e9.woff2",
+    "static/media/SBSansDisplayRegular.woff2": "/static/media/SBSansDisplayRegular.8c6814d40344b39af165.woff2",
+    "static/media/trashcan.svg": "/static/media/trashcan.bbb223817c251670755204889d967d26.svg",
+    "static/media/folder.svg": "/static/media/folder.adb28c1ea5c60bdbecf7ece7150d6f3c.svg",
+    "static/media/inputCleaner.svg": "/static/media/inputCleaner.06f573e963c561e3aae08f10d01bd317.svg",
+    "index.html": "/index.html",
+    "main.c0fd0820.css.map": "/static/css/main.c0fd0820.css.map",
+    "main.c1e2cca8.js.map": "/static/js/main.c1e2cca8.js.map",
+    "787.1c13c7f6.chunk.js.map": "/static/js/787.1c13c7f6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0fd0820.css",
+    "static/js/main.c1e2cca8.js"
+  ]
+}
