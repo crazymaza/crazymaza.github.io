@@ -1,0 +1,270 @@
+:root {
+  --bg-color: #090909;
+  --checked-color: #cd0253;
+}
+
+@font-face {
+  font-family: "main-text";
+  src: url("./fonts/MonumentExtended-Ultrabold.otf");
+}
+
+@font-face {
+  font-family: "other-text";
+  src: url("./fonts/MonumentExtended-Regular.otf");
+}
+
+@font-face {
+  font-family: "secondary-text";
+  src: url("./fonts/Roboto-Regular.ttf");
+}
+
+body {
+  background-color: var(--bg-color);
+  color: white;
+  overflow: hidden;
+  height: 100dvh;
+  padding: 30px 40px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+header {
+  position: relative;
+  z-index: 10;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo_wrapper {
+  display: flex;
+  gap: 30px;
+  max-width: 178px;
+  max-height: 66px;
+}
+
+.logo_wrapper img {
+  width: initial;
+  height: initial;
+}
+
+nav ul {
+  display: flex;
+  gap: 50px;
+}
+
+nav ul li {
+  list-style: none;
+  font-family: "main-text", serif;
+  font-size: 13px;
+  letter-spacing: 5px;
+  cursor: pointer;
+  position: relative;
+  text-transform: uppercase;
+}
+
+nav ul li::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 90%;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+  border: 2px solid var(--checked-color);
+}
+nav ul li:hover::before {
+  transform: scaleX(1);
+}
+
+nav .func_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  max-height: 27px;
+}
+
+nav .func_wrapper button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.middle {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "first second third";
+  font-family: "main-text", serif;
+  align-items: center;
+}
+
+.middle::before {
+  content: "JORDAN";
+  position: absolute;
+  font-family: "main-text", serif;
+  font-size: 300px;
+  top: 25%;
+  left: -9%;
+  letter-spacing: 5px;
+  font-style: italic;
+  opacity: 0.1;
+}
+
+.firstWord,
+.secondWord {
+  font-size: 150px;
+  margin: 0;
+}
+
+.firstWord {
+  color: var(--checked-color);
+  z-index: 10;
+}
+
+.firstSubText {
+  font-family: "other-text", serif;
+  font-size: 28px;
+  letter-spacing: 18px;
+}
+
+.middle_first {
+  grid-area: first;
+  position: absolute;
+  bottom: 25%;
+  left: 0%;
+  z-index: 10;
+}
+
+.secondWord {
+  background: #3b3b3b;
+  background: linear-gradient(to right, #3b3b3b 0%, #ffffff 30%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.middle_second {
+  grid-area: second;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 700px;
+  width: 600px;
+}
+
+.middle_second img {
+  transform: scale(3) translate(2%, 20%);
+  z-index: 9;
+}
+
+.middle_second p {
+  font-family: "main-text", serif;
+  color: var(--checked-color);
+  font-size: 36px;
+  text-align: right;
+  margin-top: 0;
+}
+
+.middle_third {
+  grid-area: third;
+  z-index: 5;
+}
+
+.middle_third .secondSubText {
+  font-family: "other-text", serif;
+  text-align: right;
+  color: var(--checked-color);
+  font-size: 24px;
+  letter-spacing: 10px;
+  font-style: italic;
+  margin: 0;
+}
+
+.middle_third .exclusive {
+  font-family: "secondary-text", serif;
+  background-color: var(--checked-color);
+  box-sizing: border-box;
+  padding: 7px 15px;
+  border-radius: 10px;
+}
+
+footer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+}
+
+footer h3 {
+  font-family: "other-text", serif;
+  font-size: 13px;
+  letter-spacing: 3px;
+}
+
+footer ul {
+  display: flex;
+  padding: 0;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer label {
+  cursor: pointer;
+}
+
+footer label img {
+  width: 100%;
+  height: 100%;
+}
+
+footer .buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+footer .buttons button {
+  font-family: "main-text", serif;
+  font-size: 15px;
+  letter-spacing: 1px;
+  padding: 18px 30px;
+  text-transform: uppercase;
+  min-width: fit-content;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease-in;
+}
+
+footer .buttons button:first-child {
+  background-color: white;
+  color: black;
+}
+
+footer .buttons button:last-child {
+  color: white;
+  box-shadow: 0 0 3px #fff inset;
+  background-color: transparent;
+}
+
+footer .buttons button:hover {
+  background-color: var(--checked-color);
+  color: white;
+  box-shadow: none;
+}
+
+footer .description {
+  max-width: 333px;
+}
+
+footer .description h3 {
+  text-transform: uppercase;
+}

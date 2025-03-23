@@ -1,0 +1,14 @@
+<svg width="68.250000" height="24.000000" viewBox="0 0 68.25 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip4_29">
+			<rect id="Logo_NIKE 1" rx="-0.375000" width="67.500008" height="23.250000" transform="translate(0.375000 0.375000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="Logo_NIKE 1" rx="-0.375000" width="67.500008" height="23.250000" transform="translate(0.375000 0.375000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip4_29)">
+		<path id="path2" d="M7.52 23.99C5.49 23.91 3.83 23.36 2.53 22.34C2.28 22.14 1.69 21.56 1.49 21.31C0.96 20.66 0.6 20.02 0.36 19.31C-0.37 17.14 0 14.28 1.45 11.15C2.68 8.47 4.58 5.81 7.9 2.12C8.39 1.58 9.85 0 9.86 0C9.86 0 9.78 0.13 9.68 0.3C8.82 1.72 8.08 3.4 7.68 4.86C7.03 7.2 7.11 9.2 7.91 10.75C8.46 11.82 9.4 12.75 10.46 13.26C12.31 14.16 15.03 14.23 18.35 13.48C18.58 13.43 29.9 10.46 43.5 6.89C57.11 3.32 68.24 0.4 68.25 0.4C68.25 0.41 36.63 13.75 20.22 20.68C17.62 21.78 16.93 22.05 15.71 22.48C12.58 23.56 9.79 24.07 7.52 23.99Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>

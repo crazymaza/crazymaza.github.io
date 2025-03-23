@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jordan</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"
+      defer
+    ></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo_wrapper">
+          <img src="./img/jordan.svg" alt="Jordan logo" />
+          <img src="./img/Logo_NIKE 1.svg" alt="Nike logo" />
+        </div>
+        <ul>
+          <li>HOME</li>
+          <li>MAN</li>
+          <li>WOMAN</li>
+          <li>KIDS</li>
+          <li>SALE</li>
+        </ul>
+        <div class="func_wrapper">
+          <button>
+            <img src="./img/search.svg" alt="search" />
+          </button>
+          <button>
+            <img src="./img/cart.svg" alt="cart" />
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="middle">
+        <div class="middle_first">
+          <h2 class="firstWord">Jump</h2>
+          <p class="firstSubText">Basketball shoe</p>
+        </div>
+        <div class="middle_second">
+          <img src="./img/pink.svg" alt="Red sneakers" />
+          <p class="price">134$</p>
+        </div>
+        <div class="middle_third">
+          <p class="secondSubText">2021 PF</p>
+          <h2 class="secondWord">man</h2>
+          <span class="exclusive">exclusive</span>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div>
+        <h3>choose color:</h3>
+        <ul>
+          <li>
+            <label>
+              <img src="./img/purple.png" alt="Purple sneackers" />
+              <input
+                hidden
+                type="radio"
+                value="purple"
+                name="sneackers"
+                checked
+                data-color="#6a0d5e"
+              />
+            </label>
+          </li>
+          <li>
+            <label>
+              <img src="./img/green.png" alt="Green sneackers" />
+              <input
+                hidden
+                type="radio"
+                value="green"
+                name="sneackers"
+                data-color="#005e2a"
+              />
+            </label>
+          </li>
+          <li>
+            <label>
+              <img src="./img/pink.png" alt="Pink sneackers" />
+              <input
+                hidden
+                type="radio"
+                value="pink"
+                name="sneackers"
+                data-color="#cd0253"
+              />
+            </label>
+          </li>
+        </ul>
+      </div>
+      <div class="buttons">
+        <button>Add to card</button>
+        <button>buy now</button>
+      </div>
+      <div class="description">
+        <h3>inspiration</h3>
+        <p>
+          Inspired by the design of the latest Air Jordan game shoe, the Jordan
+          Jumpman 2021 helps up-and-coming players level up their game.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
