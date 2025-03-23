@@ -135,7 +135,7 @@ nav .func_wrapper button {
 .middle_first {
   grid-area: first;
   position: absolute;
-  bottom: 10%;
+  bottom: 0;
   left: 0%;
   z-index: 10;
 }
@@ -167,11 +167,13 @@ nav .func_wrapper button {
   color: var(--checked-color);
   font-size: 36px;
   text-align: right;
-  margin-top: 0;
+  margin: 0;
 }
 
 .middle_third {
   grid-area: third;
+  position: absolute;
+  bottom: 10%;
   z-index: 5;
 }
 
