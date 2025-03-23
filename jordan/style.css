@@ -135,7 +135,7 @@ nav .func_wrapper button {
 .middle_first {
   grid-area: first;
   position: absolute;
-  bottom: 25%;
+  bottom: 10%;
   left: 0%;
   z-index: 10;
 }
@@ -154,8 +154,7 @@ nav .func_wrapper button {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 700px;
-  width: 600px;
+  height: 60dvh;
 }
 
 .middle_second img {
